@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Loan-EMI-calculator-and-Currency-exchange-rates
+A React + MUI-based app with light/dark theme support using Context API. Includes a Loan EMI Calculator and live Currency Exchange Rates via external API. Implements custom hooks, reusable components, routing with React Router, and responsive UI for a smooth user experience.
+>>>>>>> 7cf53afd1a9395280fb57f6683c615077052bd86

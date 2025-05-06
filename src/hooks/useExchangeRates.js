@@ -12,7 +12,6 @@ export const useExchangeRates = (baseCurrency = "USD") => {
     const fetchRates = async () => {
       try {
         setLoading(true);
-        // Note: Replace with your actual API key
         const response = await axios.get(
           `https://v6.exchangerate-api.com/v6/5ecd81b5b8ec51e67574889f/latest/${baseCurrency}`
         );

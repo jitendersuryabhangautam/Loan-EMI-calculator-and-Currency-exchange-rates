@@ -48,7 +48,6 @@ const LoanCalculatorForm = () => {
         Loan Calculator Dashboard
       </Typography>
       <Grid container spacing={3} direction="column">
-        {/* Input fields in one line */}
         <Grid
           item
           xs={12}
@@ -81,7 +80,6 @@ const LoanCalculatorForm = () => {
           />
         </Grid>
 
-        {/* Calculate button */}
         <Grid item xs={12} sx={{ display: "flex", gap: 2, width: "20%" }}>
           <Button
             variant="contained"
@@ -94,17 +92,14 @@ const LoanCalculatorForm = () => {
           </Button>
         </Grid>
 
-        {/* Conditionally render EMI and Reset sections */}
         {emi > 0 && (
           <>
-            {/* Monthly EMI */}
             <Grid item xs={12}>
               <Typography variant="h6">
                 Monthly EMI: {currency} {Number(emi).toFixed(2)}
               </Typography>
             </Grid>
 
-            {/* Currency dropdown and Reset button */}
             <Grid
               item
               xs={12}
@@ -117,7 +112,6 @@ const LoanCalculatorForm = () => {
                 justifyContent: "space-between",
               }}
             >
-              {/* Currency dropdown */}
               <FormControl sx={{ width: "6%" }}>
                 <InputLabel>Currency</InputLabel>
                 <Select
@@ -134,8 +128,6 @@ const LoanCalculatorForm = () => {
                   <MenuItem value="CAD">CAD</MenuItem>
                 </Select>
               </FormControl>
-
-              {/* Reset Button */}
               <Button
                 variant="outlined"
                 color="secondary"

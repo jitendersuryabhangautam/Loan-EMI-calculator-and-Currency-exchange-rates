@@ -25,12 +25,12 @@ const ErrorPage = () => {
         component={Link}
         to="/"
         sx={{
-          borderColor: "primary.main", // Set border color to the primary color
-          color: "primary.main", // Set text color to primary color
+          borderColor: "primary.main",
+          color: "primary.main",
           "&:hover": {
-            backgroundColor: "primary.main", // On hover, set background to primary color
-            color: "white", // Change text color to white on hover
-            borderColor: "primary.main", // Keep the border color on hover
+            backgroundColor: "primary.main",
+            color: "white",
+            borderColor: "primary.main",
           },
         }}
       >

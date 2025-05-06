@@ -6,7 +6,6 @@ export const useAmortization = () => {
     loanAmount,
     interestRate,
     loanTerm,
-    emi,
     setEmi,
     setAmortizationSchedule,
   } = useContext(AppContext);

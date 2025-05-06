@@ -15,7 +15,7 @@ export const useCurrencyConverter = () => {
             `https://v6.exchangerate-api.com/v6/5ecd81b5b8ec51e67574889f/latest/USD`
           );
           const rate = response.data.conversion_rates[currency];
-          setConvertedEmi(Number((emi * rate).toFixed(2))); // ✅ Stores as a number
+          setConvertedEmi(Number((emi * rate).toFixed(2)));
         } catch (error) {
           console.error("Error converting currency:", error);
           setConvertedEmi(Number(emi).toFixed(2));

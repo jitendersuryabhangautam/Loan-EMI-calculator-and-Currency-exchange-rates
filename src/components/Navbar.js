@@ -29,7 +29,7 @@ const Navbar = () => {
               backgroundColor: "#3888D8",
               color: "white",
               "&:hover": {
-                backgroundColor: "#add8e6", // Slightly darker light blue on hover
+                backgroundColor: "#add8e6",
               },
             }}
           >

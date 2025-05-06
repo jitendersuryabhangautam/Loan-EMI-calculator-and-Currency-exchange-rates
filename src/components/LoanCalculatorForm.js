@@ -127,11 +127,11 @@ const LoanCalculatorForm = () => {
                 >
                   <MenuItem value="USD">USD</MenuItem>
                   <MenuItem value="EUR">EUR</MenuItem>
-                  <MenuItem value="GBP">INR</MenuItem>
-                  <MenuItem value="JPY">GBP</MenuItem>
-                  <MenuItem value="INR">JPY</MenuItem>
-                  <MenuItem value="INR">AUD</MenuItem>
-                  <MenuItem value="INR">CAD</MenuItem>
+                  <MenuItem value="GBP">GBP</MenuItem>
+                  <MenuItem value="JPY">JPY</MenuItem>
+                  <MenuItem value="INR">INR</MenuItem>
+                  <MenuItem value="AUD">AUD</MenuItem>
+                  <MenuItem value="CAD">CAD</MenuItem>
                 </Select>
               </FormControl>
 

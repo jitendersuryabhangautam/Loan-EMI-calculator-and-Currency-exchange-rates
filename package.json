@@ -1,6 +1,5 @@
 {
   "name": "loan-calculator",
-  "homepage": "https://jitendersuryabhangautam.github.io/Loan-EMI-calculator-and-Currency-exchange-rates",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
